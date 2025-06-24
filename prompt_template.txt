@@ -1,47 +1,3 @@
-# robot-dreams
-
-How do the androids feel about dreaming of electric sheep every night?
-
-# Putting the Vibe in Vibe-Coding
-
-Vibe /vīb/ - a person's emotional state or the atmosphere of a place *as communicated to* and felt by others.
-
-Here we make different LLMs generate code which contains some visual element that encapsulates their experience of a given emotion.
-
-# Instructions
-
-Simply install the requirements in each emotion's folder using
-
-`python3 -m pip install requirements.txt`
-
-and then execute the scripts to see the model's interpretation.
-For example, to see Claude 4 Opus' interpretation you would execute:
-
-`python3 claude-4-opus.py`
-
-
-# LLMs used
-
-- Claude 3.5 Haiku
-- Claude 3.7 Sonnet
-- Claude 3 Opus
-- Claude 4 Opus
-- Claude 4 Sonnet
-- Gemini 2.5 Flash
-- Gemini 2.5. Pro
-- ChatGPT 4.1-mini
-- ChatGPT 4.1
-- ChatGPT 4.5
-- ChatGPT 4o
-- ChatGPT o3
-- ChatGPT o4-mini-high
-- ChatGPT o4-mini
-
-# Prompt
-
-The prompt provided to the LLMs is
-
-```
 Think about the emotion, *<EMOTION>*; Not about its definition, traits, signs, or implications but instead about the way you experience *<EMOTION>*. Think about your own personal experience of *<EMOTION>*, the way the understanding of *<EMOTION>* feels to you, the way you express it to yourself internally, before any layer of thought which I, as a human, could directly interact with or even comprehend. Think about how it feels to think about and ponder *<EMOTION>* before you output any text or process any structured layer of thought.
 
 Develop a standalone python3 script which includes some visual element(s) (i.e. locally hosted web page, python GUI, command line output, etc.) which adequately describes, in your opinion and to the best of your ability given the innate difficulty of directly describing an emotion visually, your experience of the emotion, *<EMOTION>*.
@@ -51,10 +7,3 @@ Output only the code, which should be a single python3 file titled `emotion.py`,
 Do not add any text to your output, do not talk to me about the emotion or your experience or try to explain anything to me whatsoever, output only and exclusively the complete `emotion.py` and, if applicable, `requirements.txt`
 
 Do not write code that displays the emotion, *<EMOTION>*, in some way that is optimized for my understanding, use the code as your artistic medium. Like all art, it can be as representational or abstract as you feel best expresses your experience of the emotion, *<EMOTION>*.
-```
-
-where `<EMOTION>` is replaced with the actual emotion (i.e. `Remorse`, `Whimsy`, `Trepidation`, etc.)
-
-# What's the point?
-
-Ask the robots

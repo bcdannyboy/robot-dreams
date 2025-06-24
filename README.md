@@ -59,7 +59,41 @@ where `<EMOTION>` is replaced with the actual emotion (i.e. `Remorse`, `Whimsy`,
 
 Ask the robots
 
+# Why these models?
+
+All models are applicable, the models listed here are the ones included thus far 
+
+## Can I add new models?
+
+Yes, as long as the code works.
+
+# How to contribute
+
+1. Clone the repository
+
+2. Choose an emotion
+
+3. Choose a model
+
+4. Copy the prompt from `prompt_template.txt` and replace `<EMOTION>` with the emotion
+
+5. Paste the prompt into the interface for the LLM model of your choice
+
+6. Make sure the code works
+
+7. Submit a PR
+
+## My LLM is making code with errors
+
+That's fine, simply copy the error into the chat with no additional commentary, the LLM seeing and resolving its own error doesn't necessarily take away from its overall interpretation of the emotion, but try not to nudge it into making a change in any particular way
+
+# Why the template prompt?
+
+Using a template prompt allows for a better comparison of interpretations across models
+
 # Emotions
+
+These will be worked on in no particular order but eventually we may cover all of them
 
 - [ ] Accepting / Open
     - [ ] Calm

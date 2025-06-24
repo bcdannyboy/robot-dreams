@@ -4,7 +4,7 @@ How do the androids feel about dreaming of electric sheep every night?
 
 # Putting the Vibe in Vibe-Coding
 
-Vibe /vīb/ - a person's emotional state or the atmosphere of a place *as communicated to* and felt by others.
+Vibe /vīb/ - a person's emotional state or the atmosphere of a place **as communicated to** and felt by others.
 
 Here we make different LLMs generate code which contains some visual element that encapsulates their experience of a given emotion.
 
@@ -82,6 +82,10 @@ Yes, as long as the code works.
 6. Make sure the code works
 
 7. Submit a PR
+
+## An emotion I want to work on doesn't have a folder
+
+Copy the `_template_` folder and rename the copy to the emotion ensuring the first letter of the word is upper-case (`/Whimsy` not `/whimsy`) 
 
 ## My LLM is making code with errors
 
